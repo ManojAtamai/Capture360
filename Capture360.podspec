@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "Atamai" => "manoj.v@atamai.in" }
   
   # Corrected source to use HTTP for a ZIP file
-  s.source           = { :http => "https://github.com/ManojAtamai/Capture360/releases/download/1.0.0/Insta360-1.0.1.zip" }
+  s.source           = { :http => "https://github.com/ManojAtamai/Capture360/releases/download/1.0.1/Insta360-1.0.1.zip" }
 
   s.platform         = :ios, '12.1'
   s.requires_arc     = true
