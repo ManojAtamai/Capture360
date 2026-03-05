@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
 
   # Ensure these paths match the folder structure INSIDE your zip file
   s.vendored_frameworks = [
-    'INSCameraSDK.xcframework',
-    'INSCameraServiceSDK.xcframework',
-    'INSCoreMedia.xcframework',
-    'SnapKit.xcframework',
-    'SSZipArchive.xcframework'
+    '**/INSCameraSDK.xcframework',
+  '**/INSCameraServiceSDK.xcframework',
+  '**/INSCoreMedia.xcframework',
+  '**/SnapKit.xcframework',
+  '**/SSZipArchive.xcframework'
   ]
 
   # Essential for Swift apps using these vendored frameworks
