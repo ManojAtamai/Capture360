@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name             = "Capture360"
-  s.version          = "1.0.3"
-  s.summary          = "Capture360 framework for 360 pano images"
+  s.name             = "Capture360SDK"
+  s.version          = "1.0.4"
+  s.summary          = "Capture360SDK framework for 360 pano images"
   s.homepage         = "https://github.com/ManojAtamai/Capture360"
   s.license          = { :type => 'LGPL-3.0' }
   s.author           = { "Atamai" => "manoj.v@atamai.in" }
@@ -18,10 +18,11 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = [
     '**/INSCameraSDK.xcframework',
     '**/INSCameraServiceSDK.xcframework',
-    '**/INSCoreMedia.xcframework'
+    '**/INSCoreMedia.xcframework',
+    '**/SSZipArchive.xcframework',
+    '**/SnapKit.xcframework',
+
   ]
-s.dependency 'SnapKit'
-s.dependency 'SSZipArchive'
 
   # Essential for Swift apps using these vendored frameworks
   s.pod_target_xcconfig = {
