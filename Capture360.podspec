@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = "Capture360"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Capture360 framework for 360 pano images"
   s.homepage         = "https://github.com/ManojAtamai/Capture360"
   s.license          = { :type => 'LGPL-3.0' }
   s.author           = { "Atamai" => "manoj.v@atamai.in" }
   
   # Corrected source to use HTTP for a ZIP file
-  s.source           = { :http => "https://github.com/ManojAtamai/Capture360/releases/download/1.0.2/Insta360-1.0.2.zip" }
+  s.source           = { :http => "https://github.com/ManojAtamai/Capture360/releases/download/1.0.3/Insta360-1.0.3.zip" }
 
   s.platform         = :ios, '12.1'
   s.requires_arc     = true
